@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "scope one",serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    width:100%;
+    height:100%;
+    background-image:url("../img/banner.png");
+    background-size: cover;
+    background-position:center top;
+}
+.header h3{
+    float: left;
+    color: white;
+    font-weight: lighter;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.header a{
+    float: right;
+    color: white;
+    margin-top: 40px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.header a span{
+    margin-right: 10px;
+}
+.header h3 span{
+ color: #3498db;
+}
+
+/*banner starts here*/
+
+.banner{
+    width:100%;
+    height: 500px;
+    text-align: center;
+    clear: both;
+    color: white;
+    position: relative;
+    top:30%;
+}
+.banner h1{
+    font-size: 48px;
+}
+.banner p{
+    font-size: 20px;
+}
+.banner button{
+    width: 150px;
+    height:50px;
+    background-color: #3498db;
+    color: white;
+    border: 0;
+    font-family: "scope one",serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+/*mid-section*/
+
+.mid-section img{
+ width:100%;
+}
+
+.mid-section{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.mid-section .left{
+    float: left;
+    width:30%;
+    text-align: center;
+}
+.mid-section .left img{
+    width:100%;
+    border-radius: 100%;
+}
+.mid-section .right{
+    float: right;
+    width:65%;
+}
+.mid-section .right h2{
+    font-size: 25px;
+}
+.mid-section .right p{
+    color: gray;
+    font-size: 16px;
+}
+.blue-button{
+    width: 120px;
+    height: 40px;
+    background-color: #3498db;
+    color: white;
+    border:0;
+    font-family: "scope one",serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+/*wrapper*/
+
+.wrapper{
+    width:100%;
+    background-color: #3498db;
+    padding: 30px 0;
+    margin-top: 50px;
+    color: white;
+}
+.wrapper .left{
+    width:65%;
+    text-align: left;
+}
+
+.wrapper .right{
+    width: 30%;    
+}
+.wrapper img{
+    width: 100%;
+    border-radius: 100%;
+}
+.mid-section .left .blue-button{
+    background-color:white;
+    color: #3498db;
+}
+/*last section start*/
+ 
+.big-last-section{
+    width:100%;
+    background-color: white;
+    padding: 50px 0;
+}
+.last-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+.last-section h1{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.last-section p{
+    color:gray;
+}
+.box{
+    width:30%;
+    margin-top: 100px;
+    float: left;
+}
+.both-margin{
+    margin-left: 4.5%;
+    margin-left: 4.5%;
+}
+.box img{
+    width: 80%;
+    border-radius: 100%;
+    border: 5px solid #e7e6e6;
+}
+.box p{
+    font-size: 15px;
+    margin-top: 30px;
+}
+/*footer starts*/
+.footer{
+    text-align: center;
+    margin-top: 60px;
+}
+.footer .fa{
+    font-size: 30px;
+    color: gray;
+    border: 2px solid #e7e6e6;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10pxs;
+}
+
+/*media query starts here*/
+
+@media only screen and (max-width:700px){
+    .banner h1{
+        font-size:40px;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+    .banner button{
+        width:100px;
+        height:30px;
+    }
+    .mid-section .left{
+        width:100%;
+        clear: both;
+    }
+    .mid-section .right{
+        width:100%;
+        clear: both;
+        text-align: center;
+    }
+    .mid-section .left img{
+        width:50%;
+    }
+    .mid-section .right img{
+        width:50%;
+    }
+  .wrapper .mid-section .right img{
+    width:50%;
+}
+.wrapper .mid-section .left {
+    width:100%;
+    clear: both;
+    text-align: center;
+}
+.box{
+    width: 100%;
+    clear: both;
+}
+.box img{
+    width:50%;
+}
+ .footer p{
+     font-size: 14px;
+     text-align: center;
+ }
+}
